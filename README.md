@@ -5,7 +5,7 @@
 
 <p>Tendo 3 tabelas pelo menos:</p> 
 
-<table border="1">
+<table border="0">
       <tr><td>ID_Produto</td></tr>
       <tr><td>Categoria</td></tr>
       <tr><td>Nome_Produto</td></tr>
