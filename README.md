@@ -5,28 +5,12 @@
 
 <p>Tendo 3 tabelas pelo menos:</p> 
 
-
 <table border="1">
-<tr>
-   <td>ID_Produto</td>
-</tr>
-<tr>
-   <td>ID_Produto</td>
-</tr>
-  <tr>
-   <td>Categoria</td>
-          </tr>
-  <tr>
-   <td>Nome_Produto</td>
-</tr>
- <tr>
-   <td>Categoria</td>
- </tr>
-<tr>
- <td>ID_Produto</td>
+      <tr><td>ID_Produto</td></tr>
+      <tr><td>Categoria</td></tr>
+      <tr><td>Nome_Produto</td></tr>
+      <tr><td>Fornecedor</td></tr>
 
-</tr>
-          
 </table>
           
 Produtos: ID_Produto 
@@ -35,12 +19,6 @@ Produtos: ID_Produto
           Fornecedor 
           Descriçao do Produto
           
-Encomendas: ID_Encomenda
-            ID_Produto
-            ID_Cliente
-            Valor
-            Quantidade
-
 Cliente: ID_Cliente
          Empresa
          Contacto
