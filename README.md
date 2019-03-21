@@ -12,6 +12,7 @@
       <tr><td>Nome_Produto</td></tr>
       <tr><td>Fornecedor</td></tr>
       <tr><td>Descriçao Do Produto</td></tr>
+      <tr><td>ID_sector</td></tr>
 
 </table>
 
