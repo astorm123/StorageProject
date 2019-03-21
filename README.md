@@ -7,11 +7,26 @@
 
 
 <table border="1">
-<tr>ID_Produto</tr>
-<tr>Categoria</tr>
-<tr>Nome_Produto</tr>
-<tr>Fornecedor</tr>
-<tr>Descriçao do Produto</tr>
+<tr>
+   <td>ID_Produto</td>
+</tr>
+<tr>
+   <td>ID_Produto</td>
+</tr>
+  <tr>
+   <td>Categoria</td>
+          </tr>
+  <tr>
+   <td>Nome_Produto</td>
+</tr>
+ <tr>
+   <td>Categoria</td>
+ </tr>
+<tr>
+ <td>ID_Produto</td>
+
+</tr>
+          
 </table>
           
 Produtos: ID_Produto 
