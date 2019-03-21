@@ -1,4 +1,4 @@
-O meu projeto consiste num armazem de peças automoveis , 
+<p> O meu projeto consiste num armazem de peças automoveis </p> 
 fazendo o inventario de peças e material que se encontra em stock no armazem
 Ordenado por categorias , quantidade e o tipo de peça.
 Dando a possibilidade de procurar todas as peças pelo utilizador.
