@@ -17,7 +17,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="monospace"
-        android:text="Storage"
+        android:text="@string/storage"
         android:textAlignment="center"
         android:textColor="@color/design_default_color_primary_dark"
         android:textSize="36sp"
@@ -30,7 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.342" />
-        android:onClick
 
     <Button
         android:id="@+id/Lista"
@@ -40,7 +39,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="208dp"
-        android:text="Ver Lista"
+        android:text="@string/ver_lista"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +57,8 @@
         android:hint="Nome Do Produto"
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/button__Lista"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/button__Lista"
@@ -68,7 +68,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="80dp"
-        android:text="Button"
+        android:text="@string/button"
         app:layout_constraintBottom_toTopOf="@+id/Lista"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
@@ -84,7 +84,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="92dp"
-        android:text="Fornecedor"
+        android:text="@string/fornecedor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
