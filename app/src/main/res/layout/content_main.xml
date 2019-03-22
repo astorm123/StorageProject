@@ -34,8 +34,8 @@
 
     <Button
         android:id="@+id/Lista"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="165dp"
+        android:layout_height="64dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -45,27 +45,49 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.802" />
+        app:layout_constraintVertical_bias="0.869" />
 
     <EditText
         android:id="@+id/editText"
         android:layout_width="258dp"
         android:layout_height="44dp"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:hint="Nome Do Produto"
         android:inputType="textPersonName"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button"
-        tools:layout_editor_absoluteX="25dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button__Lista"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button__Lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="80dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/Lista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="278dp" />
+        android:layout_width="165dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="92dp"
+        android:text="Fornecedor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lista" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
