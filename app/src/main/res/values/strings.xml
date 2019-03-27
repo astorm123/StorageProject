@@ -6,4 +6,7 @@
     <string name="ver_lista">Ver Lista</string>
     <string name="button">Button</string>
     <string name="fornecedor">Fornecedor</string>
+    <string name="produtos">Produtos</string>
+    <string name="procurar">Procurar</string>
+    <string name="adicionar_novos_produtos">Adicionar novos produtos</string>
 </resources>
