@@ -22,8 +22,10 @@ public class CreateNewProd extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+                Toast.makeText(CreateNewProd.this,"Operacao Cancelada",Toast.LENGTH_LONG).show();
             }
         });
+
     }
 
     public void saveProd(View view){
