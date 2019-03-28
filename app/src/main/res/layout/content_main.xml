@@ -86,6 +86,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="92dp"
         android:text="@string/fornecedor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

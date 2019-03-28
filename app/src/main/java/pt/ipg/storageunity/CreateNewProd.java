@@ -57,7 +57,7 @@ public class CreateNewProd extends AppCompatActivity {
                 if (SaveForcenedor.trim().length()==0){
                     Fornecedor.setError(getString(R.string.Error_Message));
                     Fornecedor.requestFocus();
-                    
+
                 }
                 EditText Sector = findViewById(R.id.Sector);
                 String SaveSector = Sector.getText().toString();
