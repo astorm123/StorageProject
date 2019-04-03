@@ -30,14 +30,6 @@ public class CreateNewProd extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText IDprod = findViewById(R.id.IDprod);
-                String SaveID = IDprod.getText().toString();
-
-                if (SaveID.trim().length()==0){
-                    IDprod.setError(getString(R.string.Error_Message));
-                    IDprod.requestFocus();
-
-                }
                 EditText Categoria = findViewById(R.id.Categoria);
                 String SaveCategoria = Categoria.getText().toString();
                 if (SaveCategoria.trim().length()==0){
