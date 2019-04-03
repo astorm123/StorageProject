@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StorageUnity</string>
+    <string name="action_settings">Settings</string>
+    <string name="item">Item</string>
+    <string name="storage">Storage</string>
+    <string name="ver_lista">Ver Lista</string>
+    <string name="button">Button</string>
+    <string name="produtos">Produtos</string>
+    <string name="procurar">Procurar</string>
+    <string name="adicionar_novos_produtos">Adicionar novos produtos</string>
+    <string name="Error_Message">Campo invalido</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="categoria">Categoria</string>
+    <string name="nome_de_produto">Nome de Produto</string>
+    <string name="fornecedor">Fornecedor</string>
+    <string name="CreatNewProduct">Criado Novo Produto</string>
+    <string name="nome_do_produto">Nome de Produto</string>
+    <string name="id">ID</string>
+    <string name="product_name">Nome do Produto</string>
+    <string name="sector">Sector</string>
+
+</resources>

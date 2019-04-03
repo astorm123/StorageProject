@@ -35,6 +35,7 @@ public class CreateNewProd extends AppCompatActivity {
                 if (SaveCategoria.trim().length()==0){
                     Categoria.setError(getString(R.string.Error_Message));
                     Categoria.requestFocus();
+                    return;
 
                 }
                 EditText NameProd = findViewById(R.id.NameProd)   ;
@@ -42,14 +43,14 @@ public class CreateNewProd extends AppCompatActivity {
                 if (SaveName.trim().length()==0){
                     NameProd.setError(getString(R.string.Error_Message));
                     NameProd.requestFocus();
-
+                    return;
                 }
                 EditText Fornecedor = findViewById(R.id.Fornecedor);
                 String SaveForcenedor = Fornecedor.getText().toString();
                 if (SaveForcenedor.trim().length()==0){
                     Fornecedor.setError(getString(R.string.Error_Message));
                     Fornecedor.requestFocus();
-
+                    return;
                 }
                 EditText Sector = findViewById(R.id.Sector);
                 String SaveSector = Sector.getText().toString();
@@ -59,7 +60,7 @@ public class CreateNewProd extends AppCompatActivity {
                     return;
                 }
                 finish();
-                Toast.makeText(CreateNewProd.this,"Criado novo Produto",Toast.LENGTH_LONG).show();
+                Toast.makeText(CreateNewProd.this,getString(R.string.CreatNewProduct),Toast.LENGTH_LONG).show();
             }
         });
 
