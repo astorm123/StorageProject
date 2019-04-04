@@ -31,6 +31,14 @@ public class Produtos extends AppCompatActivity {
             }
         });
 
+        button = findViewById(R.id.DeleteProd);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openDeleteP();
+            }
+        });
+
     }
 
     public void openProdutos() {
@@ -45,4 +53,11 @@ public class Produtos extends AppCompatActivity {
         Intent intent = new Intent(this, EditProduct.class);
         startActivity(intent);
     }
+
+    public void openDeleteP(){
+
+        Intent intent = new Intent(this,DeleteProduct.class);
+        startActivity(intent);
+    }
+
 }
