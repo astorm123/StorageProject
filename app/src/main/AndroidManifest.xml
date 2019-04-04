@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CreateNewProd"></activity>
+        <activity android:name=".EditProduct"></activity>
+        <activity android:name=".CreateNewProd" />
         <activity android:name=".Produtos" />
         <activity
             android:name=".MainActivity"

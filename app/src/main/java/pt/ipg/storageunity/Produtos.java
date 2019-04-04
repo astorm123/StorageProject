@@ -23,6 +23,13 @@ public class Produtos extends AppCompatActivity {
                 openProdutos();
             }
         });
+        button = (Button) findViewById(R.id.EditProd);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openEdit();
+            }
+        });
 
     }
 
@@ -31,5 +38,11 @@ public class Produtos extends AppCompatActivity {
         Intent intent = new Intent(this, CreateNewProd.class);
         startActivity(intent);
 
+    }
+
+    public void openEdit(){
+
+        Intent intent = new Intent(this, EditProduct.class);
+        startActivity(intent);
     }
 }
