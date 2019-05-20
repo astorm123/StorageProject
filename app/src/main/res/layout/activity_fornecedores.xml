@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Produtos">
+    tools:context=".Fornecedores">
 
     <Button
-        android:id="@+id/AddProd"
+        android:id="@+id/AddSup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/adicionar_novos_produtos"
+        android:text="@string/add_new_supplier"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -23,30 +23,31 @@
         app:layout_constraintVertical_bias="0.412" />
 
     <Button
-        android:id="@+id/EditProd"
+        android:id="@+id/EditSup"
         android:layout_width="163dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/edit_products"
+        android:text="@string/edit_supplier"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AddProd" />
+        app:layout_constraintTop_toBottomOf="@+id/AddSup" />
 
     <Button
-        android:id="@+id/DeleteProd"
+        android:id="@+id/DeleteSup"
         android:layout_width="163dp"
         android:layout_height="49dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/delete_product"
+        android:text="@string/delete_supplier"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EditProd"
+        app:layout_constraintTop_toBottomOf="@+id/EditSup"
         app:layout_constraintVertical_bias="0.03" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

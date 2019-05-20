@@ -25,6 +25,13 @@
     <string name="add_new_supplier">ADD NEW SUPPLIER</string>
     <string name="edit_supplier">EDIT SUPPLIER</string>
     <string name="delete_supplier">DELETE SUPPLIER</string>
+    <string name="edit_products">EDIT PRODUCTS</string>
+    <string name="delete_product">DELETE PRODUCT</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="contact">Contact</string>
+    <string name="email">Email</string>
+    <string name="company">Company</string>
 
 
 </resources>

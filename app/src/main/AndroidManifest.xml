@@ -12,6 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DeleteSup"></activity>
+        <activity android:name=".EditSup" />
+        <activity android:name=".CreatNewSup" />
+        <activity android:name=".Fornecedores" />
         <activity android:name=".Sector" />
         <activity android:name=".DeleteProduct" />
         <activity android:name=".EditProduct" />

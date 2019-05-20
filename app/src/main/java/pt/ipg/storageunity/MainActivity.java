@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-      /*  buttonSupplier = findViewById(R.id.buttonFornecedor);
+        buttonSupplier = findViewById(R.id.buttonFornecedor);
         buttonSupplier.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-*/
+
 
     }
 
@@ -70,11 +70,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /*public void openFornecedores(){
+    public void openFornecedores(){
         Intent intent = new Intent(this,Fornecedores.class);
         startActivity(intent);
     }
-*/
+
 
 
     @Override
