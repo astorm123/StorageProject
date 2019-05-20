@@ -32,6 +32,9 @@
     <string name="contact">Contact</string>
     <string name="email">Email</string>
     <string name="company">Company</string>
+    <string name="chip7">Chip7</string>
+    <string name="chip7_gmail_com">chip7@gmail.com</string>
+    <string name="_232900300">232900300</string>
 
 
 </resources>
