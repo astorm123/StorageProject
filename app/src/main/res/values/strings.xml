@@ -21,6 +21,10 @@
     <string name="nome_do_produto">Product Name</string>
     <string name="CancelOperation">Operation Canceled</string>
     <string name="ProductSave">Product Saved</string>
+    <string name="supplier">Supplier</string>
+    <string name="add_new_supplier">ADD NEW SUPPLIER</string>
+    <string name="edit_supplier">EDIT SUPPLIER</string>
+    <string name="delete_supplier">DELETE SUPPLIER</string>
 
 
 </resources>

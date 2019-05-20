@@ -30,7 +30,7 @@ public class CreateNewProd extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                EditText Categoria = findViewById(R.id.Categoria);
+                    EditText Categoria = findViewById(R.id.ButtonCategory);
                 String SaveCategoria = Categoria.getText().toString();
                 if (SaveCategoria.trim().length()==0){
                     Categoria.setError(getString(R.string.Error_Message));
@@ -38,21 +38,21 @@ public class CreateNewProd extends AppCompatActivity {
                     return;
 
                 }
-                EditText NameProd = findViewById(R.id.NameProd)   ;
+                EditText NameProd = findViewById(R.id.buttonProd)   ;
                 String SaveName = NameProd.getText().toString();
                 if (SaveName.trim().length()==0){
                     NameProd.setError(getString(R.string.Error_Message));
                     NameProd.requestFocus();
                     return;
                 }
-                EditText Fornecedor = findViewById(R.id.Fornecedor);
+                EditText Fornecedor = findViewById(R.id.buttonSup);
                 String SaveForcenedor = Fornecedor.getText().toString();
                 if (SaveForcenedor.trim().length()==0){
                     Fornecedor.setError(getString(R.string.Error_Message));
                     Fornecedor.requestFocus();
                     return;
                 }
-                EditText Sector = findViewById(R.id.Sector);
+                EditText Sector = findViewById(R.id.buttonSector);
                 String SaveSector = Sector.getText().toString();
                 if (SaveSector.trim().length()==0){
                     Sector.setError(getString(R.string.Error_Message));

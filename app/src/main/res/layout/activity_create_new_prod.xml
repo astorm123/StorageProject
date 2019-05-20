@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/Categoria"
+            android:id="@+id/ButtonCategory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/categoria" />
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/NameProd"
+            android:id="@+id/buttonProd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/nome_de_produto" />
@@ -57,13 +57,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/Fornecedor"
+            android:id="@+id/buttonSup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/fornecedor" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout6"
         android:layout_width="@dimen/width_size"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -78,7 +79,7 @@
         app:layout_constraintVertical_bias="0.111">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/Sector"
+            android:id="@+id/buttonSector"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/sector"

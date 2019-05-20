@@ -3,9 +3,6 @@ package pt.ipg.storageunity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -17,7 +14,10 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button;
+    private Button buttonLista;
+    private Button buttonSupplier;
+    private Button buttonSector;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,14 +27,32 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        button = (Button) findViewById(R.id.Lista);
-        button.setOnClickListener(new View.OnClickListener() {
+        buttonLista = (Button) findViewById(R.id.buttonLista);
+        buttonLista.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openProdutos();
             }
         });
 
+
+        buttonSector = (Button) findViewById(R.id.buttonSector);
+        buttonSector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openSector();
+            }
+        });
+
+      /*  buttonSupplier = findViewById(R.id.buttonFornecedor);
+        buttonSupplier.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openFornecedores();
+            }
+        });
+
+*/
 
     }
 
@@ -43,6 +61,20 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,Produtos.class);
         startActivity(intent);
     }
+
+
+
+
+    public void openSector(){
+        Intent intent = new Intent(this,Sector.class);
+        startActivity(intent);
+    }
+
+    /*public void openFornecedores(){
+        Intent intent = new Intent(this,Fornecedores.class);
+        startActivity(intent);
+    }
+*/
 
 
     @Override

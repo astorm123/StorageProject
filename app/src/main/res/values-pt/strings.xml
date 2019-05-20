@@ -20,5 +20,7 @@
     <string name="id">ID</string>
     <string name="product_name">Nome do Produto</string>
     <string name="sector">Sector</string>
+    <string name="CancelOperation">Operaçao Cancelada</string>
+    <string name="ProductSave">Produto Guardado</string>
 
 </resources>
